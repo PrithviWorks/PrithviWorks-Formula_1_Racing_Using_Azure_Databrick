@@ -1,24 +1,26 @@
 # Formula_1_Racing_Using_Azure_Databricks
 
 ## Project Overview:
-The goal of this project is to create a data analysis system for Formula-1 race results using Azure Databricks. This involves building an ETL (Extract, Transform, Load) pipeline to collect Formula 1 racing data from ergast.com, a website focused on Formula 1 statistics, and then processing and storing it in Azure Data Lake Gen2 storage. Azure Databricks is used for data transformation and analysis, and Azure Data Factory orchestrates the entire process.
+This project aims to develop a data analysis system for Formula 1 race outcomes using Azure Databricks. It includes creating an ETL (Extract, Transform, Load) pipeline to gather Formula 1 racing data from ergast.com, a site dedicated to Formula 1 statistics, and then processing and storing it in Azure Data Lake Gen2. Data transformation and analysis are performed with Azure Databricks, while Azure Data Factory manages the entire workflow.
 
 ## Formula1 Overview
-Formula 1 (F1) is the highest level of single-seater auto racing worldwide and is governed by the FIA. It showcases advanced and powerful cars equipped with hybrid engines. The F1 season occurs once a year and consists of races that take place over the course of a weekend, typically from Friday to Sunday. These races are held at various circuits in different countries. In each race, there are 10 teams, each with two assigned drivers.
+Formula 1 (F1) represents the pinnacle of single-seater auto racing globally, overseen by the FIA. It features cutting-edge cars with hybrid engines. The F1 season is annual, with races spanning a weekend, usually from Friday to Sunday, at various international circuits. Each race involves 10 teams, each with two drivers.
 
-The F1 season typically includes 20 to 23 races, also known as Grands Prix. Safety is a paramount concern, with strict regulations and ongoing technological advancements to ensure the well-being of drivers and spectators. Pit stops are a common occurrence during races, allowing teams to change tires and make adjustments to the cars.
+The F1 season generally includes 20 to 23 races, known as Grands Prix. Safety is crucial, with stringent rules and continuous technological improvements to protect drivers and fans. Pit stops are frequent, allowing teams to change tires and adjust cars.
 
-On Saturdays, a qualifying round is held to determine the starting positions of drivers on the grid for the Sunday race. The races themselves consist of a variable number of laps, usually ranging from 50 to 70 laps, depending on the circuit's length. Pit stops are available during races for tire changes or car adjustments.
+Qualifying rounds on Saturdays set the starting grid for Sunday's race. Races consist of a variable number of laps, typically between 50 and 70, depending on the circuit's length. Pit stops are available for tire changes or car adjustments.
 
-The results of each race are used to calculate driver standings and constructor standings. The driver who leads the driver standings at the end of the season is crowned the drivers' champion, while the team that leads the constructor standings becomes the constructors' champion.
+Race results determine driver and constructor standings. The driver leading the standings at season's end is named the drivers' champion, while the top team becomes the constructors' champion.
+
+
 
 ## Solution Architecture for the Problem Statement
 
-![ov4](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/ae620fcc-5b65-4c4b-8508-8aca16870026)
+![ov4](https://github.com/PrithviWorks/PrithviWorks-Formula_1_Racing_Using_Azure_Databrick/blob/main/Section-9/ov4.jpeg)
 
 ## ER Diagram
 The structure of the database is shown in the following ER Diagram and explained in the [Database User Guide](http://ergast.com/docs/f1db_user_guide.txt)
-![ER](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/84074fe4-1916-47c3-944e-8b414541cc8c)
+![ER](https://github.com/PrithviWorks/PrithviWorks-Formula_1_Racing_Using_Azure_Databrick/blob/main/Section-9/formula1_ergast_db_data_model.png)
 
 ## Working Plan
 
@@ -114,7 +116,7 @@ The requirements for this project are broken down into six different parts which
 - Ability to roll back to a previous version
 
 ## Visual Analysis
-![1](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/b72ef606-796f-4d21-adac-dd7a2f25e718)
+![1]()
 
 ![2](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/62bfa2dc-ae8e-495c-8d00-10ca416f79f4)
 
