@@ -194,7 +194,7 @@ The requirements for this project are broken down into six different parts which
   <li>Azure Databricks </li> 
   <li>Azure Data Factory</li> 
   <li>Azure Date Lake Storage Gen2</li> 
-  <li>Azure Key Fault</li> 
+  <li>Azure Key Vault</li> 
   <li>Power BI</li> 
 </ul>  
 
