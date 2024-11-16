@@ -61,7 +61,7 @@ In the second pipeline, Databricks SQL reads preprocessed delta files and transf
 
 ADF is scheduled to run every Sunday at 10 PM and is designed to skip the execution if there is no race that week. We have another pipeline to execute the ingestion pipeline and transformation pipeline using file_date as the parameter for the tumbling window trigger.
 
-![adf](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/a927c96d-1417-4678-a203-9dfdb993c324)
+![adf](https://github.com/PrithviWorks/PrithviWorks-Formula_1_Racing_Using_Azure_Databrick/blob/main/Section-22/analysis/Execute%20Pipeline.png)
 
 ### Azure Resources Used for this Project:
 - Azure Data Lake Storage
@@ -116,17 +116,17 @@ The requirements for this project are broken down into six different parts which
 - Ability to roll back to a previous version
 
 ## Visual Analysis
-![1]()
+![1](https://github.com/PrithviWorks/PrithviWorks-Formula_1_Racing_Using_Azure_Databrick/blob/main/Section-22/analysis/Dominant%20Formula%201%20Drivers.png)
 
-![2](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/62bfa2dc-ae8e-495c-8d00-10ca416f79f4)
+![2](https://github.com/PrithviWorks/PrithviWorks-Formula_1_Racing_Using_Azure_Databrick/blob/main/Section-22/analysis/Dominant%20Formula%201%20Drivers%20(2).png)
 
-![3](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/3c229390-4dd9-4535-98b6-f0e15b49377a)
+![3](https://github.com/PrithviWorks/PrithviWorks-Formula_1_Racing_Using_Azure_Databrick/blob/main/Section-22/analysis/Dominant%20Formula%201%20Drivers%20(3).png)
 
-![4](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/91ca24fb-a5ce-4717-879a-f9177f8b27a4)
+![4](https://github.com/PrithviWorks/PrithviWorks-Formula_1_Racing_Using_Azure_Databrick/blob/main/Section-22/analysis/Dominant%20Formula%201%20Drivers%20(4).png)
 
-![5](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/0436cf54-ab09-45e4-b721-c4b83c6426f9)
+![5](https://github.com/PrithviWorks/PrithviWorks-Formula_1_Racing_Using_Azure_Databrick/blob/main/Section-22/analysis/Dominant%20Formula%201%20Drivers%20(5).png)
 
-![6](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/4e02d1a0-3403-4119-a747-54147f9c9a10)
+![6](https://github.com/PrithviWorks/PrithviWorks-Formula_1_Racing_Using_Azure_Databrick/blob/main/Section-22/analysis/Dominant%20Formula%201%20Drivers%20(6).png)
 
 ## Tasks performed:
 •	Built a solution architecture for a data engineering solution using Azure Databricks, Azure Data Lake Gen2, Azure Data Factory, and Power BI.
